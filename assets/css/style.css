@@ -6,13 +6,21 @@
     --secondary-font: "Londrina Shadow", sans-serif;
 }
 
+/* Navbar section */
+
 #navbar {
     background: linear-gradient(90deg, rgba(101,43,76,1) 51%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
     
 }
+#navbar h1 {
+    font-size: 3.2rem;
+}
 
 #navbar .logo {
-    width: 80px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover; 
 }
 
 .navbar-text {
@@ -27,4 +35,13 @@
     flex-basis: 100%;
     flex-grow: 0;
     align-items: center;
+}
+
+/* Heading Section */
+
+.row {
+    font-family: var(--primary-font);
+    text-align: center;
+    align-items: center;
+
 }
