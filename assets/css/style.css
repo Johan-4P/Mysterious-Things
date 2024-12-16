@@ -1,0 +1,18 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Londrina+Shadow&display=swap');
+
+:root {
+    --primary-font: "Delius", cursive;
+    --secondary-font: "Londrina Shadow", sans-serif;
+}
+
+#navbar .logo {
+    width: 80px;
+}
+
+.navbar-text {
+    font-family: var(--secondary-font);
+    text-align: center;
+    text-transform: uppercase;
+}
+
