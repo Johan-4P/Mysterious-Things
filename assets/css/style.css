@@ -44,10 +44,29 @@ body {
 }
 
 .row {
+    display: flex;
     font-family: var(--primary-font);
     text-align: center;
     align-items: center;
+}
 
+h2 {
+    margin: 0 auto;
+  }
+
+  #border {
+    border: 1px solid black;
+    padding-top: 2px;
+  }
+
+  .card-group {
+    margin-top: 1.5rem;
+    
+  }
+
+  .card-img-top {
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensures images retain their proportions */
 }
 
 /* Media queries */
