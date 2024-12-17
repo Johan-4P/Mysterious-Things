@@ -4,6 +4,7 @@
 :root {
     --primary-font: "Delius", cursive;
     --secondary-font: "Londrina Shadow", sans-serif;
+    --primary-color: #B8860B
 }
 
 
@@ -18,26 +19,19 @@ body {
 
 #navbar {
     background: linear-gradient(90deg, rgba(101,43,76,1) 51%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
+    color: var(--primary-color);
     
 }
-#navbar h1 {
-    font-size: 2.3rem;
+
+#navbar .nav-link {
+    color: var(--primary-color);
 }
 
 #navbar .logo {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover; 
+    width: 100%;
+    height: 100%;
+    
 }
-
-.navbar-text {
-    font-family: var(--secondary-font);
-    text-align: center;
-    text-transform: uppercase;
-    align-items: center;
-}
-
 
 .navbar-collapse {
     flex-basis: 100%;
