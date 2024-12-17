@@ -44,7 +44,6 @@ body {
 
 .logo {
     width: 120px; /* Keep a consistent size */
-
 }
 
 
@@ -66,17 +65,22 @@ h2 {
     margin: 0 auto;
   }
 
-
-
-  .card-group {
-    margin-top: 1.5rem;
-    
+ .card-group {
+    margin-top: 1.5rem;    
   }
 
   .card-img-top {
     height: 200px; /* Set a fixed height for uniformity */
     object-fit: cover; /* Ensures images retain their proportions */
 }
+
+.container {
+    text-align: center; /* Center-align the text and button */
+  }
+  
+  .discover-more {
+    margin-top: 20px; /* Adjust the top margin as needed */
+  }
 
 /* Media queries */
 
