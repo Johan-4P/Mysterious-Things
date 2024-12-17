@@ -50,6 +50,8 @@ body {
 
 .card {
     margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 .card h3 {
     color: var(--primary-color);
