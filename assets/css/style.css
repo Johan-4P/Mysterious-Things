@@ -44,11 +44,18 @@ main {
 }
 
 #header {
-    margin-top: 0.5rem;
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    width: 50%; /* Keeps your current width setting */
+    height: 100px; /* Set a height to help vertical alignment */
+    margin: 0.5rem auto; /* Centers the header container itself horizontally */
     color: var(--primary-color);
     font-family: var(--secondary-font);
     background: linear-gradient(90deg, rgba(101,43,76,1) 51%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
-  }
+    text-align: center; /* Ensures text alignment in case of multiple lines */
+}
+
 
 .logo {
     width: 120px; /* Keep a consistent size */
@@ -111,56 +118,20 @@ h2 {
     align-items: center;
     width: 50%;
   }
+  
 
 /* Footer section */
 
 footer {
     text-align: center;
     padding: 10px 0;
-    padding-top: auto;
+    margin-top: auto;
     margin: 0;
     width: 100%;
 }
 
 /* Media queries */
 
-/* Small screens and up 
-@media screen and (min-width: 576px)
-     increase font size in events table when screen size is large enough */
-
-/*
-@media (max-width: 768px) {
-    #navbar h1 {
-        font-size: 1.8rem;  Reduce text size 
-    }
-    .logo {
-        width: %
-    }
-}
-*/
-/* Large devices (small laptops, 992px and up) 
-@media screen and (min-width: 992px) {
-     Make all service cards the same height for consistency 
-    #services .card-body {
-        min-height: auto;
-    }
-}*/
-
-/* xl devices (large desktops, 1200px and up) 
-@media screen and (min-width: 1200px) {
-     make all service cards the same height for consistency 
-    #services .card-body {
-        min-height: 220px;
-    }
-}*/
-
-/* xxl devices (larger desktops, 1400px and up) 
-@media screen and (min-width: 1400px) {
-    make all service cards the same height for consistency 
-    #services .card-body {
-        min-height: 195px;
-    }
-}*/
 
 /* Extra small devices (phones, 600px and down) 
 @media only screen and (max-width: 600px) {...}*/
