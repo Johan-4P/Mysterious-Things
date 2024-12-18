@@ -53,29 +53,40 @@
     </nav>
 
     <!-- Header -->
-    <header id="header" class="section col-12 col-lg-6 mb-3 center">
+    <header id="header" class="section col-12 col-lg-6 mb-3 mx-auto mt-2">
         <div class="row">
             <div class="text-center">
                 <h2>Question Submission</h2>
-                    <p class="text-center question text-break">Here you can ask exactly what you want, fill in your name and email, choose a
-                category and write your message and we will get back to you as soon as we can</p>
+                <p class="text-center question text-break">Here you can ask exactly what you want, fill in your name and
+                    email, choose a
+                    category and write your message and we will get back to you as soon as we can</p>
             </div>
         </div>
     </header>
 
     <main>
-        <div class="col-12 col-lg-6 mb-3 ms-auto">
+        <div id="question-submission" class="col-12 col-lg-6 mb-3 mx-auto">
             <label for="name" class="form-label">Name</label>
             <input type="name" class="form-control" id="name" placeholder="name" required>
-          </div>
-        <div class="col-12 col-lg-6 mb-3 ms-auto">
+        </div>
+        <div id="question-submission" class="col-12 col-lg-6 mb-3 mx-auto">
             <label for="email" class="form-label">Email address</label>
             <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
-          </div>
-          <div class="col-12 col-lg-6 mb-3 ms-auto">
-            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="enter text here" rows="3" required></textarea>
-          </div>
+        </div>
+        <div id="question-submission" class="col-12 col-lg-6 mb-3 mx-auto">
+            <label for="exampleFormControlTextarea1" class="form-label">Message<select class="form-select"
+                    aria-label="Default select example" required>
+                    <option selected>Chose a option</option>
+                    </option>
+                    <option value="1">Tarot</option>
+                    <option value="2">Runes</option>
+                    <option value="3">Oracle</option>
+                    <option value="4">Complain</option>
+                </select></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="enter text here" rows="4"
+                required></textarea>
+            <input class="btn btn-primary mt-2" type="submit" value="Submit">
+        </div>
     </main>
 
     <!-- Footer / contact section -->
@@ -83,7 +94,7 @@
     <footer id="contact" class="mt-auto">
         <div class="card">
             <div class="card-body">
-                <button type="button " class="btn btn-outline-warning">Does it end here?</button>
+                <button type="button" class="btn btn-outline-warning">Does it end here?</button>
             </div>
         </div>
     </footer>
