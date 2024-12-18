@@ -4,9 +4,13 @@
 :root {
     --primary-font: "Delius", cursive;
     --secondary-font: "Londrina Shadow", sans-serif;
-    --primary-color: #B8860B
+    --primary-color: #B8860B;
+    --gradient-bg: linear-gradient(90deg, rgba(101,43,76,1) 51%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
 }
 
+.logo {
+  width: 120px; /* Keep a consistent size */
+}
 
 /* Global styles */
 
@@ -17,21 +21,13 @@ body {
     flex-direction: column; /* Makes the body a flex container */
     min-height: 100vh; /* Ensures the body takes the full height of the viewport */
 }
-
-
 /* Navbar section */
 
-#navbar {
-    background: linear-gradient(90deg, rgba(101,43,76,1) 51%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
-    color: var(--primary-color);
-    
-}
 
 #navbar .nav-link {
     color: var(--primary-color);
     font-size: x-large;
 }
-
 
 .navbar-collapse {
     flex-basis: 100%;
@@ -42,27 +38,33 @@ body {
 main {
     flex: 1;
 }
+h3, .card-body p {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
 
 #header {
     width: 50%; /* Keeps your current width setting */
     color: var(--primary-color);
     font-family: var(--secondary-font);
-    background: linear-gradient(90deg, rgba(101,43,76,1) 51%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
 }
 
-
-.logo {
-    width: 120px; /* Keep a consistent size */
+#navbar, .card, #header {
+  background: var(--gradient-bg);
 }
 
 .card {
-    background: linear-gradient(90deg, rgba(101,43,76,1) 51%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
+    display: flex;
     margin-bottom: 1.5rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    text-align: center; /* Center-align the text and button */
+    text-align: center;
     justify-content: center;
 }
+body h3 {
+  color: var(--primary-color);
+}
+
 .card h3, h4 {
     color: var(--primary-color);
 }
@@ -75,9 +77,6 @@ h2 {
     margin: 0 auto;
   }
 
- .card-group {
-    margin-top: 0.5rem;    
-  }
 
   .card-img-top {
     height: 200px; /* Set a fixed height for uniformity */
@@ -114,11 +113,37 @@ h2 {
   #p-in-carousel {
     color: var(--primary-color);
   }
+
+  /* Ensure text in cards and carousel is uniformly aligned */
+.text-center {
+  text-align: center;
+}
+
+.card-body p, .card-body-carousel p {
+  text-align: justify; /* Use justify for a more professional look */
+  margin: 0 auto; /* Center content within its container */
+}
+
+h3 {
+  text-align: center; /* Ensure consistent heading alignment */
+}
+
+/* Optional: Add consistent padding for better spacing */
+.card-body, .card-body-carousel {
+  padding: 1rem;
+}
+
   
   .carousel {
-    width: 20%;
-    height: 20%;
+    width: 90%; /* Default for small screens */
+    max-width: 600px; /* Limit the size for larger screens */
+    margin: auto;
   }
+  .card-group, .carousel {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
   .card-body-carousel {
     color: white;
     background-color: #db1d76;
@@ -139,19 +164,70 @@ footer {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  #question-submission {
+  .carousel {
+    width: 100%;
     margin: auto;
+    max-width: 400px;
+  }
+  .card-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) 
-@media only screen and (min-width: 600px) {...}*/
+/* Medium devices (landscape tablets, 768px and up)*/
+@media only screen and (min-width: 768px) {
+  .card-group {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
 
-/* Medium devices (landscape tablets, 768px and up)
-@media only screen and (min-width: 768px) {...} */
+.card {
+    width: 80%;
+    margin: 0 auto;
+}
+.carousel {
+  width: 40%; 
+  max-width: 800px;
+}
 
-/* Large devices (laptops/desktops, 992px and up) 
-@media only screen and (min-width: 992px) {...}*/
+} 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) 
-@media only screen and (min-width: 1200px) {...}*/
+/* Large devices (laptops/desktops, 992px and up)*/ 
+@media only screen and (min-width: 992px) {
+  .card-group {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+  .card {
+    width: 40%;
+  }
+  .carousel {
+    width: 40%; 
+    max-width: 800px;
+}
+ 
+}
+
+@media only screen and (min-width: 1200px) {
+  .card-group {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 2rem; 
+   }
+  .carousel {
+    width: 40%;
+    max-width: 800px;
+    }
+  }
