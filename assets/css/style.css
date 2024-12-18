@@ -12,6 +12,10 @@
 
 body {
     font-family: var(--primary-font);
+    background-color: #4f092a;
+    display: flex;
+    flex-direction: column; /* Makes the body a flex container */
+    min-height: 100vh; /* Ensures the body takes the full height of the viewport */
 }
 
 
@@ -35,7 +39,11 @@ body {
     align-items: center;
 }
 
-  #header {
+main {
+    flex: 1;
+}
+
+#header {
     margin-top: 0.5rem;
     color: var(--primary-color);
     font-family: var(--secondary-font);
@@ -45,7 +53,6 @@ body {
 .logo {
     width: 120px; /* Keep a consistent size */
 }
-
 
 .card {
     background: linear-gradient(90deg, rgba(101,43,76,1) 51%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
@@ -57,7 +64,7 @@ body {
     color: var(--primary-color);
 }
 
-.card p {
+#white p {
     color: white;
 }
 
@@ -81,8 +88,22 @@ h2 {
   
   .discover-more {
     margin-top: 20px; /* Adjust the top margin as needed */
+    background-color: red;
   }
 
+  .discover-more:hover {
+    background-color: var(--primary-color);
+  }
+
+/* Footer section */
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    padding-top: auto;
+    margin: 0;
+    width: 100%;
+}
 
 /* Media queries */
 
