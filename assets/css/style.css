@@ -108,6 +108,14 @@ h2 {
     width: 50%;
   }
   
+  .carousel {
+    width: 20%;
+    height: 20%;
+  }
+  .card-body-carousel {
+    color: white;
+    background-color: #db1d76;
+  }
 
 /* Footer section */
 
