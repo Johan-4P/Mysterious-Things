@@ -95,6 +95,23 @@ h2 {
     background-color: var(--primary-color);
   }
 
+  /* Question section */
+
+  .question {
+    font-family: var(--primary-font);
+  }
+
+  .form-label {
+    color: var(--primary-color);
+  }
+
+  .form-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+
 /* Footer section */
 
 footer {
