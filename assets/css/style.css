@@ -55,6 +55,25 @@ h2 {
     margin: 0 auto;
 }
 
+.img-fluid {
+    display: flex;
+    border: 1px solid #7c1616;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+.container-reading {
+    color: white;
+    border: 1px solid #7c1616;
+    width: 30%;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    background: var(--gradient-bg);
+}
+
+.container-reading h3 {
+    color: var(--primary-color);
+}
+
 /* Card Group and Cards */
 .card-group {
     display: grid;

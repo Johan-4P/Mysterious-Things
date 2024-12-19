@@ -27,8 +27,8 @@ CSS3: For responsive and visually appealing designs.
 Bootstrap 5: For streamlined layouts and responsive components.
 
 MysteriousThings/
-* --index.html            # Main entry point
-* --assets/
+* -- index.html            # Main entry point
+* -- assets/
     * -- css/
         * -- style.css     # Custom styles
     * -- images/           # Images used throughout the site
