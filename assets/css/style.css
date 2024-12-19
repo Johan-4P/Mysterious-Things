@@ -5,7 +5,7 @@
 :root {
     --primary-font: "Delius", cursive;
     --secondary-font: "Londrina Shadow", sans-serif;
-    --primary-color: #B8860B;
+    --primary-color: #f38609;
     --gradient-bg: linear-gradient(90deg, rgba(101,43,76,1) 51%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
 }
 
