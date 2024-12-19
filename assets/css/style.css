@@ -57,31 +57,36 @@ h2 {
 
 .img-fluid {
     display: flex;
-    border: 1px solid #7c1616;
-    width: auto;
+    border: none;
+    width: 100%;
+    max-width: 100%;
     align-items: center;
     justify-content: center;
 }
 .container-reading {
     color: white;
-    border: 1px solid #7c1616;
-    width: 30%;
+    border: none;
+    width: 80%;
+    max-width: 90%;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
     background: var(--gradient-bg);
+    margin: 0 auto;
 }
 
 .container-reading h3 {
+    padding: auto;
     color: var(--primary-color);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
 /* Card Group and Cards */
 .card-group {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    gap: 1rem; /* Space between cards */
+    gap: 1rem; 
     margin: 0 auto;
     width: 100%;
-    max-width: 1200px; /* Optional: limit width */
+    max-width: 1200px; 
 }
 .card {
     background: var(--gradient-bg);
@@ -120,12 +125,11 @@ h2 {
 }
 .card-body-carousel {
     color: white;
-    background-color: #db1d76;
+    background-color: var(--gradient-bg);
 }
-#p-in-carousel {
-    color: var(--primary-color);
+.carousel-text h3 {
+    color: white;
 }
-
 /* Discover More Button */
 .discover-more {
     margin-top: 20px;
@@ -162,6 +166,13 @@ footer {
 
 /* Extra Small Devices (Phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .img-fluid {
+        width: 100%;
+    }
+    .container-reading {
+        width: 100%;
+        padding: 1rem;
+    }
     .card-group {
         grid-template-columns: 1fr; /* Stack cards in one column */
     }
@@ -174,6 +185,12 @@ footer {
 
 /* Medium Devices (Tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .img-fluid {
+        width: 80%;
+    }
+    .container-reading {
+        width: 70%;
+    }
     .card-group {
         grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
         gap: 1rem;
@@ -189,8 +206,15 @@ footer {
 
 /* Large Devices (Laptops/Desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .img-fluid {
+        width: auto;
+    }
+    .container-reading {
+        width: 40%;
+    }
+
     .card-group {
-        grid-template-columns: repeat(3, 1fr); /* 3 columns on large screens */
+        grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
     }
     .carousel {
