@@ -27,16 +27,16 @@ CSS3: For responsive and visually appealing designs.
 Bootstrap 5: For streamlined layouts and responsive components.
 
 MysteriousThings/
-|-- index.html            # Main entry point
-|-- assets/
-    |-- css/
-        |-- style.css     # Custom styles
-    |-- images/           # Images used throughout the site
-|-- components/
-    |-- navbar.html       # Navbar component
-    |-- footer.html       # Footer component
-|-- sections/
-    |-- tarot.html        # Tarot section
-    |-- runes.html        # Runes section
-    |-- oracle.html       # Oracle section
-    |-- questions.html    # Questions section
+* --index.html            # Main entry point
+* --assets/
+    * -- css/
+        * -- style.css     # Custom styles
+    * -- images/           # Images used throughout the site
+* -- components/
+    * -- navbar.html       # Navbar component
+    * -- footer.html       # Footer component
+* -- sections/
+    * -- tarot.html        # Tarot section
+    * -- runes.html        # Runes section
+    * -- oracle.html       # Oracle section
+    * -- questions.html    # Questions section
