@@ -127,7 +127,8 @@ h2 {
     color: white;
     background-color: var(--gradient-bg);
 }
-.carousel-text h3 {
+
+.carousel-text, #p-in-carousel {
     color: white;
 }
 /* Discover More Button */
@@ -190,6 +191,7 @@ footer {
     }
     .container-reading {
         width: 70%;
+        padding: 1rem;
     }
     .card-group {
         grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
@@ -211,6 +213,7 @@ footer {
     }
     .container-reading {
         width: 40%;
+        padding: 1rem;
     }
 
     .card-group {
@@ -225,6 +228,10 @@ footer {
 
 /* Extra Large Devices (1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+    .container-reading {
+        padding: 1rem;
+    }
     .card-group {
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;

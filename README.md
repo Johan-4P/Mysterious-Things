@@ -2,21 +2,27 @@
 
 Explore the world of Tarot, Runes, and Oracle insights through an engaging and user-friendly website.
 
+
+![a mockup of the homepage](assets/images/mockup.png "Homepage!")
+
 Overview
 
-Mysterious Things is a website designed to offer deep insights into the spiritual and mystical realms. It serves as a guide for anyone interested in exploring Tarot cards, Runes, and Oracle readings. The platform also features a dedicated question page to address users' curiosities about these esoteric practices.
+### Mysterious Things
+is a website designed to offer deep insights into the spiritual and mystical realms.
+It serves as a guide for anyone interested in exploring Tarot cards, Runes, and Oracle readings.
+The platform also features a dedicated question page to address users' curiosities about these esoteric practices.
 
-Features
+#### Features
 
-Home Page: Welcomes users with an overview of what the site offers.
+1. Home Page: Welcomes users with an overview of what the site offers.
 
-Tarot Section: Discover the meanings of Tarot cards and their relevance in daily life.
+2. Tarot Section: Discover the meanings of Tarot cards and their relevance in daily life.
 
-Runes Section: Learn about the ancient symbols of Runes and their divinatory applications.
+3. Runes Section: Learn about the ancient symbols of Runes and their divinatory applications.
 
-Oracle Section: Delve into the wisdom and guidance of Oracle readings.
+4. Oracle Section: Delve into the wisdom and guidance of Oracle readings.
 
-Questions Page: An interactive space to submit and explore common questions about mystical practices.
+5. Questions Page: An interactive space to submit and explore common questions about mystical practices.
 
 Tech Stack
 
