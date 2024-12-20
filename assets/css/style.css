@@ -282,6 +282,9 @@ footer {
 
 /* Extra Large Devices (1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .img-fluid {
+    width: 30%;
+  }
   .container-reading {
     width: 90%;
     padding: 1rem;
@@ -291,7 +294,7 @@ footer {
     gap: 2rem;
   }
   .carousel {
-    width: 20%;
+    width: 10%;
     max-width: 800px;
   }
 }
