@@ -111,7 +111,6 @@ h2 {
 }
 .card-body p,
 .card-body-carousel p {
-  text-align: justify;
   margin: 0 auto;
 }
 .card-body,
@@ -140,7 +139,6 @@ h4 {
 .carousel-text p {
   font-size: 1rem;
   line-height: 1.6;
-  text-align: justify;
   margin: 0;
 }
 
@@ -164,6 +162,11 @@ h4 {
 }
 .nav-arrows a:hover {
   color: #fff;
+}
+/* Hidding orginal arrows on carousel */
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
 }
 
 /* Discover More Button */
