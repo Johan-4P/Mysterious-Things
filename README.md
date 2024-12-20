@@ -10,53 +10,54 @@ Overview
 
 # CONTENTS
 
-* User Experience
+* [User Experience](#user-experience-ux)
     * User Stories
-* Design
-    * Color Scheme
-    * Typography
-    * Images
-    * Wireframe 
-    * Features
-        * The Home Page
-        * The Tarot Page
-        * The Rune Page
-        * The Oracle Page
-        * The Questions Page
-        * The Success Page 
-        * The Error Page
-    * Accessibility
-* Technologies Used
-    * Languages Used
-    * Frameworks, Libraries & Programs Used
-* Deployment & Local Deployment 
-    * Deployment
-    * Local Deployment
-        * How to Fork
-        * How to Clone
-* Testing
-    * Solved Bugs
-    * Known Bugs
-* Credits
-    * Code Used 
-    * Content
-    * Media
-    * Acknowledgments
+* [Design](#design)
+    * [Color Scheme](#color-scheme)
+    * [Typography](#typography)
+    * [Images](#images)
+    * [Wireframe](#wireframe) 
+    * [Features](#features)
+        * [The Home Page](#the-home-page)
+        * [The Tarot Page](#the-tarot-page)
+        * [The Rune Page](#the-rune-page)
+        * [The Oracle Page](#the-oracle-page)
+        * [The Questions Page](#the-question-page)
+        * [The Success Page](#the-success-page)
+        * [The Error Page](#the-error-page)
+    * [Accessibility](#accessibity)
+* [Technologies Used](#technologies-used)
+    * [Languages Used](#languages-used)
+    * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+* [Deployment & Local Development](#deployment--local-development) 
+    * [Deployment](#deployment)
+    * [Local Development](#local-development)
+        * [How to Fork](#how-to-fork)
+        * [How to Clone](#how-to-clone)
+* [Testing](#testing)
+    * [Solved Bugs](#solved-bugs)
+    * [Known Bugs](#known-bugs)
+* [Credits](#credits)
+    * [Code Used](#code-used) 
+    * [Content](#content)
+    * [Media](#media)
+    * [Acknowledgments](#acknowledgments)
 
 ---
 
 ## User Experience (UX)
 
-### User Stories
+### Target Audience
+* Those who are looking for a page that can give them the information they want
+* 
 
- #### First Time Visitor Goals
+#### User Stories
 
 * As a visitor, I want to see an attractive homepage, so I can easily navigate to the Tarot, Runes, Oracle, and Question sections.
 * As a visitor, I want the website to have a mystical theme, so I feel immersed in the experience.
 * 
 
-#### Returning Visitor Goals
-
+#### Site Aims
 * 
 *
 #### Frequent Visitor Goals
