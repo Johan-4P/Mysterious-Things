@@ -163,7 +163,7 @@ h4 {
 .nav-arrows a:hover {
   color: #fff;
 }
-/* Hidding orginal arrows on carousel */
+/* Hiding original arrows on carousel */
 .carousel-control-prev,
 .carousel-control-next {
   display: none;

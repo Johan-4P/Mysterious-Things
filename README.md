@@ -13,17 +13,17 @@ Overview
 * User Experience
     * User Stories
 * Design
-    * Colour Scheme
+    * Color Scheme
     * Typography
     * Images
-    * Wireframes
+    * Wireframe 
     * Features
         * The Home Page
         * The Tarot Page
         * The Rune Page
         * The Oracle Page
         * The Questions Page
-        * The Succses Page 
+        * The Success Page 
         * The Error Page
     * Accessibility
 * Technologies Used
@@ -67,5 +67,5 @@ Overview
 ---
 ## Design
 
-### Colour Scheme 
+### Color Scheme 
     
