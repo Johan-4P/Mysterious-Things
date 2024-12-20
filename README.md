@@ -42,3 +42,30 @@ Overview
     * Content
     * Media
     * Acknowledgments
+
+---
+
+## User Experience (UX)
+
+### User Stories
+
+ #### First Time Visitor Goals
+
+* As a visitor, I want to see an attractive homepage, so I can easily navigate to the Tarot, Runes, Oracle, and Question sections.
+* As a visitor, I want the website to have a mystical theme, so I feel immersed in the experience.
+* 
+
+#### Returning Visitor Goals
+
+* 
+*
+#### Frequent Visitor Goals
+
+* 
+* 
+
+---
+## Design
+
+### Colour Scheme 
+    
