@@ -69,4 +69,17 @@ Overview
 ## Design
 
 ### Color Scheme 
-    
+
+
+### Typography
+* 
+
+### Images
+* 
+
+### Wireframe 
+
+### Features 
+
+#### The Home Page
+The home page of Mysterious Things displays the sites name as a logo 
