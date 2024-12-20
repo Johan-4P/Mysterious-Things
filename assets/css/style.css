@@ -15,9 +15,11 @@
 
 /* Global Styles */
 body {
+  margin: 0;
   font-family: var(--primary-font);
   background-color: #4f092a;
   display: flex;
+  min-height: 100vh;
 }
 main {
   flex: 1;
@@ -124,6 +126,7 @@ h4 {
 
 /* Carousel */
 .carousel {
+  flex: 1;
   width: 90%; /* Default for small screens */
   max-width: 600px; /* Limit size for larger screens */
   margin: auto;
@@ -199,6 +202,8 @@ footer {
   margin-top: auto;
   margin: 0;
   width: 100%;
+  position: relative;
+  bottom: 0;
 }
 
 /* Media Queries */
