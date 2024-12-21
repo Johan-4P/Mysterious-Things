@@ -71,10 +71,22 @@ Overview
 ### Color Scheme 
 I have chose the color based on the mystical theme that the page is build on.
 
+In my css file i have mostly used variables to declare color, and used these throughout the css file.
+its useful to ise the same color code if you wish to alter the color on the webpage.
+* I have used #f38609 & #ffffff as the primary and secondary color used for the sites text.
+* I have used gradient-bg: linear-gradient
+    90deg,
+    rgba(101, 43, 76, 1) 51%,
+    rgba(2, 0, 36, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+as the background-color.
+* I have used text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7) as text-shadow.
+* I have used #ffffff as the border color.
 
-
+![color-scheme](assets/images/color-scheme.png)
 ### Typography
-* 
+Google Fonts was used to import the chosen fonts for the site.
+* For the header i used the google font 
 
 ### Images
 * 

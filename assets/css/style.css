@@ -6,6 +6,7 @@
   --primary-font: "Delius", cursive;
   --secondary-font: "Londrina Shadow", sans-serif;
   --primary-color: #f38609;
+  --secondary-color: #ffffff;
   --gradient-bg: linear-gradient(
     90deg,
     rgba(101, 43, 76, 1) 51%,
@@ -75,7 +76,7 @@ h2 {
   justify-content: center;
 }
 .container-reading {
-  color: #ffffff;
+  color: var(--secondary-color);
   border: none;
   width: 80%;
   max-width: 90%;
@@ -145,7 +146,7 @@ h4 {
   color: var(--primary-color);
 }
 .card-body-carousel {
-  color: #ffffff;
+  color: var(--secondary-color);
   background-color: var(--gradient-bg);
 }
 .carousel-text p {
@@ -159,7 +160,7 @@ h4 {
 
 .carousel-text,
 #p-in-carousel {
-  color: white;
+  color: var(--secondary-color);
 }
 /*Navigation arrows */
 .nav-arrows {
@@ -176,7 +177,7 @@ h4 {
   transition: color 0.3s ease;
 }
 .nav-arrows a:hover {
-  color: #ffffff;
+  color: var(--secondary-color);
 }
 /* Hiding original arrows on carousel */
 .carousel-control-prev,
