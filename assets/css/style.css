@@ -213,6 +213,19 @@ footer {
   position: relative;
   bottom: 0;
 }
+#all-rights {
+  font-size: 25px;
+}
+
+/* Social links */
+.social-links {
+  font-size: 3rem;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#instagram {
+  padding: 10px;
+}
 
 /* Media Queries */
 
