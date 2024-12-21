@@ -86,7 +86,9 @@ as the background-color.
 ![color-scheme](assets/images/color-scheme.png)
 ### Typography
 Google Fonts was used to import the chosen fonts for the site.
-* For the header i used the google font 
+* For the header i used the google font [Londrina Shadow](https://fonts.google.com/specimen/Londrina+Shadow?preview.text=Mysterious%20Things%20-%20Londrina%20Shadow)
+
+![Londrina](assets/images/Londrina-Shadow.png)
 
 ### Images
 * 
