@@ -90,6 +90,10 @@ h2 {
   color: var(--primary-color);
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
   font-size: 30px;
+  padding-bottom: 2rem;
+}
+.container-reading p {
+  padding: 3rem;
 }
 
 /* Card Group and Cards */
@@ -249,7 +253,16 @@ footer {
   .card-body-carousel p, h3 {
     font-size: 19px;
   }
+  .social-links {
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  #all-rights {
+    font-size: 16px;
+  }
 }
+
 
 /* Medium Devices (Tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -310,10 +323,10 @@ footer {
     gap: 2rem;
   }
   .carousel {
-    width: 10%;
+    width: 30%;
     max-width: 800px;
   }
   .card-body-carousel p, h3 {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
