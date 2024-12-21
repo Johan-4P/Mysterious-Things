@@ -69,6 +69,8 @@ Overview
 ## Design
 
 ### Color Scheme 
+I have chose the color based on the mystical theme that the page is build on.
+
 
 
 ### Typography
