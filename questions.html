@@ -66,7 +66,7 @@
         <form action="success.html" method="get">
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                <input type="text" class="form-control" id="name" placeholder="Your Name" required pattern=".*\S+.*" title="This field is required">
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
@@ -74,7 +74,7 @@
             </div>
             <div class="mb-3">
                 <label for="category" class="form-label">Category</label>
-                <select class="form-select" id="category" required>
+                <select class="form-select" id="category" required pattern=".*\S+.*" title="This field is required>
                     <option selected>Choose an option</option>
                     <option value="tarot">Tarot</option>
                     <option value="runes">Runes</option>
@@ -85,7 +85,7 @@
             <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
                 <textarea class="form-control" id="message" placeholder="Enter your message here" rows="4"
-                    required></textarea>
+                    required pattern=".*\S+.*" title="This field is required></textarea>
             </div>
             <button type="submit" class="btn btn-primary mt-2">Submit</button>
         </form>
