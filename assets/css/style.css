@@ -1,11 +1,11 @@
 /* Google Fonts Import */
-@import url("https://fonts.googleapis.com/css2?family=Delius&family=Londrina+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delius&family=Nosifer&display=swap");
 
 /* Root Variables */
 :root {
   --primary-font: "Delius", cursive;
-  --secondary-font: "Londrina Shadow", sans-serif;
-  --primary-color: #f38609;
+  --secondary-font: "Nosifer", serif;
+  --primary-color: #d13333;
   --secondary-color: #ffffff;
   --background-color: #01060a;
   --gradient-bg: linear-gradient(
@@ -40,6 +40,9 @@ body {
   max-width: 90%;
   padding: 2%;
  }
+ .bigger-text {
+  font-family: var(--secondary-font);
+ }
 
 
 /* Navbar */
@@ -53,13 +56,35 @@ body {
  }
  #navbar {
  background: var(--gradient-bg);
- font-size: larger;
+ font-size: 2rem;
+ font-family: var(--secondary-font);
  }
-
+/* Card-section */
  .card {
   background-color:#220f0f;
   color: var(--secondary-color);
+  border: 2px solid var(--primary-color);
  }
+ .card-group h3, p, h4 {
+  color: var(--primary-color);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+.btn-primary:hover {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
 
  /* Footer */
 footer {
@@ -70,6 +95,8 @@ footer {
   width: 100%;
   position: relative;
   bottom: 0;
+  background: var(--gradient-bg);
+  background-color: var(--background-color);
  }
  #all-rights {
   font-size: 25px;
@@ -83,6 +110,9 @@ footer {
  }
  #instagram {
   padding: 10px;
+ }
+ .fa-brands {
+  color: var(--primary-color);
  }
 /* Media queries */
  /* Extra small devices (phones, 600px and down)*/
@@ -109,12 +139,11 @@ footer {
 
 /* Extra large devices (large laptops and desktops, 1200px and up)*/ 
 @media only screen and (min-width: 1200px) {
-  .header {
-    .text {
-     
-      margin-right: 10%;
-      margin-top: -45%;
-      font-size: 100%;
-    }
+  .text {
+    width: 40%;
+    font-size: 1.5rem;
+  }
+  .card {
+    font-size: 1.5rem;
   }
 }
