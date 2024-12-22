@@ -11,16 +11,17 @@
    90deg,
    rgba(101, 43, 76, 1) 51%,
    rgba(2, 0, 36, 1) 100%,
-   rgba(0, 212, 255, 1) 100%
-  );
+   rgba(0, 212, 255, 1) 100%);
  }
  .header {
   background-image: url("/assets/images/tarot/background-1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  background-color: #211e1e;
   width: 100%;
   padding-top: 70%;
+  color: #ffffff;
  }
 
  .container-reading {
