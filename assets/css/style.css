@@ -7,18 +7,23 @@
   --secondary-font: "Londrina Shadow", sans-serif;
   --primary-color: #f38609;
   --secondary-color: #ffffff;
+  --background-color: #01060a;
   --gradient-bg: linear-gradient(
    90deg,
    rgba(101, 43, 76, 1) 51%,
    rgba(2, 0, 36, 1) 100%,
    rgba(0, 212, 255, 1) 100%);
  }
+body {
+  background: var(--background-color);
+}
+
  .header {
   background-image: url("/assets/images/tarot/background-1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-color: #211e1e;
+  background-color: var(--background-color);
   width: 100%;
   padding-top: 70%;
  }
@@ -102,5 +107,14 @@ footer {
 /* Large devices (laptops/desktops, 992px and up) 
 @media only screen and (min-width: 992px) {...}*/
 
-/* Extra large devices (large laptops and desktops, 1200px and up) 
-@media only screen and (min-width: 1200px) {...}*/
+/* Extra large devices (large laptops and desktops, 1200px and up)*/ 
+@media only screen and (min-width: 1200px) {
+  .header {
+    .text {
+     
+      margin-right: 10%;
+      margin-top: -45%;
+      font-size: 100%;
+    }
+  }
+}
