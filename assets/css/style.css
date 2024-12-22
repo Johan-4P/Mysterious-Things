@@ -55,9 +55,8 @@
  }
 
  .card {
-  display: flex;
-  align-content: center;
-  justify-content: center;
+  background-color:#220f0f;
+  color: var(--secondary-color);
  }
 
  /* Footer */
@@ -83,3 +82,28 @@ footer {
  #instagram {
   padding: 10px;
  }
+/* Media queries */
+ /* Extra small devices (phones, 600px and down)*/
+@media only screen and (max-width: 600px) {
+  .text {
+    width: 80%;
+    margin-right: 10%;
+    margin-top: -45%;
+    font-size: 80%;
+  }
+  .header {
+    background-size: cover;
+  }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {...}*/
+
+/* Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...}*/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...}*/
