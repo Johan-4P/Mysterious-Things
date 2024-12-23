@@ -17,7 +17,7 @@
 
 <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
 
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column min-vh-100 success-page">
     <!-- Navigation -->
     <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
@@ -51,35 +51,36 @@
         </div>
     </nav>
 
-    <main id="success">
-        <div class="container-reading justify-content-center mx-auto">
-            <h1 class="display-3">Thank you!</h1>
-            <p class="lead">Your form has been submitted successfully!</p>
-            <a href="index.html" class="btn btn-primary mt-2">Return to the home page</a>
+    <main id="success" aria-live="polite">
+        <div class="container-reading justify-content-center text-center mx-auto">
+            <h1 class="display-3 text-center bigger-text h2-header">Thank you!</h1>
+            <p class="lead text-center">Your form has been submitted successfully!</p>
+            <a href="index.html" class="btn btn-primary btn-sm mt-2">Return to the home page</a>
         </div>
     </main>
 
-    <!-- Footer / contact section -->
-    <!-- mt-auto added to push footer to the bottom of the page -->
+    <!-- Footer -->
     <footer class="footer">
-        <div class="card card-body">
-            <div class="social-links me-auto">
-                <a href="https://www.facebook.com" target="_blank"
-                    aria-label="Visit our Facebook page (opens in new tab)" rel="noopener"><i
-                        class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.instagram.com" target="_blank"
-                    aria-label="Visit our Instagram page (opens in new tab)" rel="noopener"><i id="instagram"
-                        class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.x.com" target="_blank" aria-label="Visit our Twitter/X page (opens in new tab)"
-                    rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
-            </div>
-            <p id="all-rights">&copy; 2024 Mysterious Things. All rights reserved.</p>
+        <div class="card-body">
+          <div class="social-links me-auto">
+            <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in new tab)"
+              rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page (opens in new tab)"
+              rel="noopener"><i id="instagram" class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.x.com" target="_blank" aria-label="Visit our Twitter/X page (opens in new tab)"
+              rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+          <p id="all-rights">&copy; 2024 Mysterious Things. All rights reserved.</p>
         </div>
-    </footer>
+      </footer>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
     </script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/cf468e5aaf.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

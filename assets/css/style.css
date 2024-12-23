@@ -84,14 +84,11 @@ body {
 
 /* Buttons */
 .btn-primary {
-  background-color: var(--primary-color);
-  color: var(--background-color);
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 2rem;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    border-radius: 20px;
 }
 
 .btn-primary:hover {
@@ -104,6 +101,36 @@ body {
 color: var(--primary-color);
 }
 
+/* Form section */
+.question-page, .success-page {
+  background-image: url("/assets/images/tarot/background-1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.container {
+  border: 1px solid var(--primary-color);
+  background: var(--gradient-bg);
+  margin-top: 10%;
+  margin-bottom: 17%;
+  color: var(--secondary-color);
+  font-size: large;
+}
+.container-reading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#success {
+  border: 1px solid var(--primary-color);
+  background: var(--gradient-bg);
+  margin: 46rem 60rem 10rem;
+  color: var(--secondary-color);
+  font-size: large;
+
+}
 
  /* Footer */
 footer {
