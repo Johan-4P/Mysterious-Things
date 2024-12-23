@@ -190,11 +190,27 @@ footer {
   }
   .navbar-brand img {
     height: 30px;
-}
-
-.navbar-nav .nav-link {
+  }
+  .navbar-nav .nav-link {
     font-size: 0.85rem;
-}
+  }
+  .carousel {
+    width: 40%;
+    font-size: 2rem;
+  }
+  .carousel h3 {
+    font-size: 1rem;
+  }
+  .footer {
+    padding: 15px 10px;
+  }
+  .footer .social-links a {
+    font-size: 1.2rem;
+    margin: 0 8px;
+  }
+  .footer #all-rights {
+    font-size: 0.85rem;
+  }
 }
 
 
@@ -208,10 +224,24 @@ footer {
   .navbar-brand img {
     height: 40px;
   }
-
   .navbar-nav .nav-link {
     font-size: 0.9rem;
-
+  }
+  .carousel {
+    width: 30%;
+    font-size: 2rem;
+  }
+  .carousel h3 {
+    font-size: 2rem;
+  }
+  .footer {
+    padding: 18px 12px;
+  }
+  .footer .social-links a {
+    font-size: 1.3rem;
+  }
+  .footer #all-rights {
+    font-size: 0.9rem;
   }
 }
 /* Large devices (laptops/desktops, 992px and up)*/
@@ -221,18 +251,34 @@ footer {
   }
 
   .navbar-nav .nav-link {
-    font-size: 1.1rem; /* Larger font size */
+    font-size: 1.1rem;
+  }
+  .carousel {
+    width: 20%;
+    font-size: 2rem;
+  }
+  .carousel h3 {
+    font-size: 2rem;
+  }
+  .footer {
+    padding: 25px 20px;
+  }
+  .footer .social-links a {
+    font-size: 1.7rem;
+  }
+  .footer #all-rights {
+    font-size: 1.1rem;
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up)*/ 
+/* Extra large devices (large laptops and desktops, 1200px and up)
 @media only screen and (min-width: 1200px) {
   .text {
     width: 40%;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .card {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .carousel {
@@ -243,10 +289,10 @@ footer {
     font-size: 2rem;
   }
   .navbar-brand img {
-    height: 60px; /* Larger logo size for desktops */
+    height: 60px;
   }
 
   .navbar-nav .nav-link {
-    font-size: 1.1rem; /* Larger font size */
+    font-size: 1.1rem;
   }
-}
+}*/
