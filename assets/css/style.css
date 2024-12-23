@@ -53,7 +53,18 @@ body {
   font-family: var(--secondary-font);
  }
 
+/* Card-section */
+.card-group {
+  padding: 1.5rem;
 
+}
+ .card {
+  background-color:#220f0f;
+  border: 2px solid var(--primary-color);
+ }
+ .card-group h3, p, h4 {
+  color: var(--secondary-color);
+}
 
 /* Navbar */
 #navbar .nav-link {
@@ -69,14 +80,7 @@ body {
  font-size: 2rem;
  font-family: var(--secondary-font);
  }
-/* Card-section */
- .card {
-  background-color:#220f0f;
-  border: 2px solid var(--primary-color);
- }
- .card-group h3, p, h4 {
-  color: var(--secondary-color);
-}
+
 
 /* Buttons */
 .btn-primary {
@@ -96,8 +100,10 @@ body {
 }
 
 .carousel h3 {
+  font-family: var(--secondary-font);
 color: var(--primary-color);
 }
+
 
  /* Footer */
 footer {
@@ -125,7 +131,7 @@ footer {
   padding: 10px;
  }
  .fa-brands {
-  color: var(--primary-color);
+  color: var(--secondary-color);
  }
 /* Media queries */
  /* Extra small devices (phones, 600px and down)*/
@@ -163,11 +169,11 @@ footer {
     font-size: 1.5rem;
   }
   .card {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 .carousel {
-  width: 20%;
+  width: 10%;
   font-size: 2rem;
 }
 .carousel h3 {
