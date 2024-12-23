@@ -6,7 +6,7 @@
   --primary-font: "Delius", cursive;
   --secondary-font: "Nosifer", serif;
   --primary-color: #d13333;
-  --secondary-color: #ffffff;
+  --secondary-color: #ecbdbd;
   --background-color: #01060a;
   --gradient-bg: linear-gradient(
    90deg,
@@ -31,8 +31,13 @@ body {
   font-family: var(--secondary-font);
   color: var(--primary-color);
  }
+
+ #header {
+  margin-bottom: 1.5rem;
+ }
+
  .text {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-family: var(--primary-font);
   background-color:#220f0fe0;
   border-radius: 5%;
@@ -47,6 +52,7 @@ body {
  .bigger-text {
   font-family: var(--secondary-font);
  }
+
 
 
 /* Navbar */
@@ -66,11 +72,10 @@ body {
 /* Card-section */
  .card {
   background-color:#220f0f;
-  color: var(--secondary-color);
   border: 2px solid var(--primary-color);
  }
  .card-group h3, p, h4 {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 /* Buttons */
@@ -86,7 +91,7 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: var(--background-color);
+  background-color: var(--secondary-color);
   color: var(--primary-color);
 }
 
