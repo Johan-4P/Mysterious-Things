@@ -56,7 +56,6 @@ body {
 /* Card-section */
 .card-group {
   padding: 1.5rem;
-
 }
  .card {
   background-color:#220f0f;
@@ -64,6 +63,13 @@ body {
  }
  .card-group h3, p, h4 {
   color: var(--secondary-color);
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 /* Navbar */
@@ -146,6 +152,10 @@ footer {
  }
  #all-rights {
   font-size: 25px;
+  font-family: var(--secondary-font);
+ }
+ #footer-h3 {
+  color: var(--secondary-color);
  }
 
  /* Social links */
@@ -178,16 +188,42 @@ footer {
   .navbar {
     font-size: 15px;
   }
-} 
+  .navbar-brand img {
+    height: 30px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 0.85rem;
+}
+}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up)
-@media only screen and (min-width: 600px) {...} */
+@media only screen and (min-width: 600px) {
 
-/* Medium devices (landscape tablets, 768px and up) 
-@media only screen and (min-width: 768px) {...}*/
+} */
 
-/* Large devices (laptops/desktops, 992px and up) 
-@media only screen and (min-width: 992px) {...}*/
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .navbar-brand img {
+    height: 40px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.9rem;
+
+  }
+}
+/* Large devices (laptops/desktops, 992px and up)*/
+@media only screen and (min-width: 992px) {
+  .navbar-brand img {
+    height: 60px; /* Larger logo size for desktops */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1.1rem; /* Larger font size */
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up)*/ 
 @media only screen and (min-width: 1200px) {
@@ -198,11 +234,19 @@ footer {
   .card {
     font-size: 2rem;
   }
-}
-.carousel {
-  width: 10%;
-  font-size: 2rem;
-}
-.carousel h3 {
-  font-size: 2rem;
+
+  .carousel {
+    width: 10%;
+    font-size: 2rem;
+  }
+  .carousel h3 {
+    font-size: 2rem;
+  }
+  .navbar-brand img {
+    height: 60px; /* Larger logo size for desktops */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1.1rem; /* Larger font size */
+  }
 }
