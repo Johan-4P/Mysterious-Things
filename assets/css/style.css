@@ -9,14 +9,23 @@
   --secondary-color: #ecbdbd;
   --background-color: #01060a;
   --gradient-bg: linear-gradient(
-   90deg,
-   rgba(101, 43, 76, 1) 51%,
-   rgba(2, 0, 36, 1) 100%,
-   rgba(0, 212, 255, 1) 100%);
- }
+    90deg,
+    rgba(101, 43, 76, 1) 51%,
+    rgba(2, 0, 36, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+body {
+  background: var(--gradient-bg);
+  /* OR */
+  background-image: url("assets/images/tarot/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 
- .header {
+.header {
   background-image: url("assets/images/tarot/back2.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -24,20 +33,20 @@
   background-color: var(--background-color);
   width: 100%;
   padding-top: 70%;
- }
- .h2-header {
+}
+.h2-header {
   font-family: var(--secondary-font);
   color: var(--primary-color);
- }
+}
 
- #header {
+#header {
   margin-bottom: 1.5rem;
- }
+}
 
- .text {
+.text {
   color: var(--secondary-color);
   font-family: var(--primary-font);
-  background-color:#220f0fe0;
+  background-color: #220f0fe0;
   border-radius: 5%;
   border: 2px solid #09020229;
   margin-top: -50%;
@@ -46,20 +55,22 @@
   height: auto;
   max-width: 90%;
   padding: 2%;
- }
- .bigger-text {
+}
+.bigger-text {
   font-family: var(--secondary-font);
- }
+}
 
 /* Card-section */
 .card-group {
   padding: 1.5rem;
 }
- .card {
-  background-color:#220f0f;
+.card {
+  background-color: #220f0f;
   border: 2px solid var(--primary-color);
- }
- .card-group h3, p, h4 {
+}
+.card-group h3,
+p,
+h4 {
   color: var(--secondary-color);
 }
 .card-body {
@@ -73,26 +84,25 @@
 /* Navbar */
 #navbar .nav-link {
   color: var(--primary-color);
- }
- .navbar-collapse {
+}
+.navbar-collapse {
   flex-basis: 100%;
   flex-grow: 0;
   align-items: center;
- }
- #navbar {
- background: var(--gradient-bg);
- font-size: 2rem;
- font-family: var(--secondary-font);
- }
-
+}
+#navbar {
+  background: var(--gradient-bg);
+  font-size: 2rem;
+  font-family: var(--secondary-font);
+}
 
 /* Buttons */
 .btn-primary {
-    background-color: var(--primary-color);
-    border: none;
-    padding: 5px 15px;
-    font-size: 1.2rem;
-    border-radius: 20px;
+  background-color: var(--primary-color);
+  border: none;
+  padding: 5px 15px;
+  font-size: 1.2rem;
+  border-radius: 20px;
 }
 
 .btn-primary:hover {
@@ -102,11 +112,12 @@
 
 .carousel h3 {
   font-family: var(--secondary-font);
-color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 /* Form section */
-.question-page, .success-page {
+.question-page,
+.success-page {
   background-image: url("assets/images/tarot/background-1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -133,10 +144,9 @@ color: var(--primary-color);
   margin: 46rem 60rem 10rem;
   color: var(--secondary-color);
   font-size: large;
-
 }
 
- /* Footer */
+/* Footer */
 footer {
   text-align: center;
   padding: 10px 0;
@@ -147,29 +157,29 @@ footer {
   bottom: 0;
   background: var(--gradient-bg);
   background-color: var(--background-color);
- }
- #all-rights {
+}
+#all-rights {
   font-size: 25px;
   font-family: var(--secondary-font);
- }
- #footer-h3 {
+}
+#footer-h3 {
   color: var(--secondary-color);
- }
+}
 
- /* Social links */
+/* Social links */
 .social-links {
   font-size: 3rem;
   margin-left: 20px;
   margin-top: 20px;
- }
- #instagram {
+}
+#instagram {
   padding: 10px;
- }
- .fa-brands {
+}
+.fa-brands {
   color: var(--secondary-color);
- }
+}
 /* Media queries */
- /* Extra small devices (phones, 600px and down)*/
+/* Extra small devices (phones, 600px and down)*/
 @media only screen and (max-width: 600px) {
   .text {
     width: 80%;
@@ -210,7 +220,6 @@ footer {
     font-size: 0.85rem;
   }
 }
-
 
 /* Small devices (portrait tablets and large phones, 600px and up)
 @media only screen and (min-width: 600px) {
