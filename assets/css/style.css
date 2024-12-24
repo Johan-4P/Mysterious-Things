@@ -109,7 +109,7 @@ color: var(--primary-color);
 
 /* Form section */
 .question-page, .success-page {
-  background-image: url("/assets/images/tarot/background-1.jpg");
+  background-image: url("assets/images/tarot/background-1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
