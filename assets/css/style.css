@@ -19,7 +19,7 @@ body {
   background: var(--background-color);
 }
 
-
+/* Header section */
 .header {
   background-image: url("../images/tarot-background-one.jpg");
   background-repeat: no-repeat;
@@ -41,11 +41,11 @@ body {
 .text {
   color: var(--secondary-color);
   font-family: var(--primary-font);
-  background-color: #220f0fe0;
+  background-color: #220f0f4f;
   border-radius: 5%;
   border: 2px solid #09020229;
   margin-top: -50%;
-  margin-right: 15%;
+  margin-right: 5%;
   width: 35%;
   height: auto;
   max-width: 90%;
@@ -177,24 +177,20 @@ footer {
 /* Extra small devices (phones, 600px and down)*/
 @media only screen and (max-width: 600px) {
   .text {
+    background-color: #220f0fad;
     width: 80%;
     margin-right: 10%;
     margin-top: -45%;
-    font-size: 80%;
+    font-size: 75%;
   }
-  /*
-  .header {
-    background-size: cover;
-  }
-    */
   .h2-header {
     font-size: 16px;
   }
   .navbar {
-    font-size: 15px;
+    font-size: 20px;
   }
   .navbar-brand img {
-    height: 30px;
+    height: 90px;
   }
   .navbar-nav .nav-link {
     font-size: 0.85rem;
@@ -205,6 +201,9 @@ footer {
   }
   .carousel h3 {
     font-size: 1rem;
+  }
+  .carousel p {
+    font-size: medium;
   }
   .footer {
     padding: 15px 10px;
