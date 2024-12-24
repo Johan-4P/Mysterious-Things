@@ -19,7 +19,7 @@ body {
 }
 
  .header {
-  background-image: url("assets/images/tarot/back.jpeg");
+  background-image: url("/assets/images/tarot/back.jpeg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
