@@ -109,11 +109,38 @@ h4 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
 }
+.nav-arrows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  pointer-events: none; 
+}
+
+.nav-arrows a {
+  color: var(--secondary-color);
+  background-color: #220f0f4f;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius: 50%;
+  padding: 10px;
+  pointer-events: auto;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.nav-arrows a:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: scale(1.2);
+}
+
 
 /* Form section */
 .question-page,
 .success-page {
-  background-image: url("assets/images/tarot/background-1.jpg");
+  background-image: url("../images/tarot-background-one.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -132,10 +159,10 @@ h4 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #220f0f4f;
 }
-#success {
+.container-reading {
   border: 1px solid var(--primary-color);
-  background: var(--gradient-bg);
   margin: 46rem 60rem 10rem;
   color: var(--secondary-color);
   font-size: large;
@@ -195,6 +222,9 @@ footer {
   .navbar-nav .nav-link {
     font-size: 0.85rem;
   }
+  .container-reading {
+    margin: 5rem 60rem 30rem;
+  }
   .carousel {
     width: 40%;
     font-size: 2rem;
@@ -210,7 +240,6 @@ footer {
   }
   .footer .social-links a {
     font-size: 1.2rem;
-    margin: 0 8px;
   }
   .footer #all-rights {
     font-size: 0.85rem;
@@ -225,39 +254,47 @@ footer {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .navbar-brand img {
-    height: 40px;
+    height: 70px;
   }
   .navbar-nav .nav-link {
     font-size: 0.9rem;
+  }
+  .container-reading {
+    margin: 20% 10% 50%;
   }
   .carousel {
     width: 30%;
     font-size: 2rem;
   }
   .carousel h3 {
-    font-size: 2rem;
+    font-size:smaller;
+  }
+  .carousel p {
+    font-size: medium;
   }
   .footer {
-    padding: 18px 12px;
-  }
-  .footer .social-links a {
-    font-size: 1.3rem;
+    padding: 18px 140px;
   }
   .footer #all-rights {
     font-size: 0.9rem;
   }
+  .social-links {
+    font-size: 1rem;
+    margin: 0% 0%;
+  }
 }
 /* Large devices (laptops/desktops, 992px and up)*/
 @media only screen and (min-width: 992px) {
+
   .navbar-brand img {
-    height: 60px; /* Larger logo size for desktops */
+    height: 70px;
   }
 
   .navbar-nav .nav-link {
     font-size: 1.1rem;
   }
   .carousel {
-    width: 20%;
+    width: 15%;
     font-size: 2rem;
   }
   .carousel h3 {
@@ -274,28 +311,13 @@ footer {
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up)
+/* Extra large devices (large laptops and desktops, 1200px and up)*/
 @media only screen and (min-width: 1200px) {
-  .text {
-    width: 40%;
-    font-size: 1rem;
-  }
-  .card {
-    font-size: 1rem;
-  }
-
-  .carousel {
-    width: 10%;
-    font-size: 2rem;
-  }
-  .carousel h3 {
-    font-size: 2rem;
-  }
   .navbar-brand img {
-    height: 60px;
+    height: 80px;
   }
 
   .navbar-nav .nav-link {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
-}*/
+}
