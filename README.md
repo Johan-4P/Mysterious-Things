@@ -100,5 +100,15 @@ The website build with a home page, a tarot page, a rune page, a oracle page and
 All pages on the website are responsive and have:
 * A favicon in the browser tab.
  ![Logo](assets/images/logo.png)
+ * I have the logo in the left upper corner on all the pages. This logo also acts as a link back to home page.
+ ![logo-big](assets/images/logo23.png)
+
 #### The Home Page
-The home page of Mysterious Things displays the sites name as a logo 
+The home page of Mysterious Things the sites name as a logo and then a container which holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the logo
+![Home-page](assets/images/mockup.png)
+After the container you will see tree bootstraps card's including the tree side page and a button on each 
+that will redirect you to that specific page when pushed on. And the footer with a text that tells you that you can visit them on the social medias bellow, and a button that will take you to the top if you like.
+![Home-page-2](assets/images/home2.png)
+
+#### Tarot Page
+The tarot page displays the logo and a header with a mysterious text, and tree card's with more information.
