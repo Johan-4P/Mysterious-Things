@@ -68,18 +68,18 @@
             </div>
             <div class="mb-3">
                 <label for="category" class="form-label">Category</label>
-                <select class="form-select" id="category" required pattern=".*\S+.*" title="This field is required">
+                <select class="form-select" id="category" required size="5">
                     <option selected>Choose a category</option>
                     <option value="tarot">Tarot</option>
                     <option value="runes">Runes</option>
-                    <option value="3oracle">Oracle</option>
+                    <option value="oracle">Oracle</option>
                     <option value="complain">Complain</option>
                 </select>
             </div>
             <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
                 <textarea class="form-control" id="message" placeholder="Enter your message here" rows="4"
-                    required pattern=".*\S+.*" title="This field is required"></textarea>
+                    required title="This field is required"></textarea>
             </div>
             <button type="submit" class="btn btn-primary mt-2">Submit</button>
         </form>
@@ -110,5 +110,4 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/cf468e5aaf.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
