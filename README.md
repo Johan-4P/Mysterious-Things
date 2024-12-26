@@ -11,7 +11,7 @@ Overview
 # CONTENTS
 
 * [User Experience](#user-experience-ux)
-    * User Stories
+    * [User Stories](#user-stories)
 * [Design](#design)
     * [Color Scheme](#color-scheme)
     * [Typography](#typography)
@@ -32,8 +32,6 @@ Overview
 * [Deployment & Local Development](#deployment--local-development) 
     * [Deployment](#deployment)
     * [Local Development](#local-development)
-        * [How to Fork](#how-to-fork)
-        * [How to Clone](#how-to-clone)
 * [Testing](#testing)
     * [Solved Bugs](#solved-bugs)
     * [Known Bugs](#known-bugs)
@@ -49,21 +47,18 @@ Overview
 
 ### Target Audience
 * Those who are looking for a page that can give them the information they want
-* 
 
 #### User Stories
 
 * As a visitor, I want to see an attractive homepage, so I can easily navigate to the Tarot, Runes, Oracle, and Question sections.
 * As a visitor, I want the website to have a mystical theme, so I feel immersed in the experience.
-* 
+* As a visitor, I want to fill out a question form, so I can submit my thoughts.
 
 #### Site Aims
-* 
-*
+* I want to be able to take a closer look on each card or rune.
 #### Frequent Visitor Goals
-
-* 
-* 
+* Able to find out new things about the different sides.
+* I can send a question to find out more if i want to.
 
 ---
 ## Design
