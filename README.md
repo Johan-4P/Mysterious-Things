@@ -92,8 +92,13 @@ Google Fonts was used to import the chosen fonts for the site.
 * As the website is called Mysterious Things, i wanted to use a page background of a tarot card that give the user a mysterious feeling.
 ### Wireframe 
 Wireframes were created for mobile, tablet and laptops using balsamiq.
-
+![Homepage](assets/images/index.png)
+![Tarot,rune,oracel](assets/images/tarot.rune.oracle.png)
+![Question](assets/images/question.png)
 ### Features 
-
+The website build with a home page, a tarot page, a rune page, a oracle page and a question page.
+All pages on the website are responsive and have:
+* A favicon in the browser tab.
+ ![Logo](assets/images/logo.png)
 #### The Home Page
 The home page of Mysterious Things displays the sites name as a logo 
