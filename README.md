@@ -132,9 +132,9 @@ This page have first a text that tells you to ask exactly what you want and how 
 Then it is a form with four boxes that you can fill out your name and email, what category it will direct to and your message.
 ![Question Page](assets/images/mockup-question.png)
 
-#### Succsess Page
+#### Success Page
 This page tells you that your form has been submitted successfully, and a button to de home page
-![Succsess](assets/images/mockup-succsess-page.png)
+![Success](assets/images/mockup-succsess-page.png)
 
 ### Accessibility
 I have really tried to ensure that the website is as accessible as possible. I have achieve this by doing this:
@@ -149,3 +149,40 @@ I have really tried to ensure that the website is as accessible as possible. I h
 HTML,CSS
 
 ### Frameworks,Libraries & Program Used
+* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+
+* [Git](https://git-scm.com/) - For version control.
+
+* [Github](https://github.com/) - To save and store the files for the website.
+
+* [GitPod](https://gitpod.io/) - IDE used to create the site.
+
+* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+
+* [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
+* [Favicon.io](https://favicon.io/) To create favicon.
+
+* [W3C HTML Validator](https://validator.w3.org/) - To check HTML code
+
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - To check CSS code
+
+* [Am I Responsive?](http://ami.responsivedesign.is/) - To show the website image on a range of devices.
+
+* [Bootstrap](https://getbootstrap.com/) - A HTML & JavaScript library.
+
+### Deployment
+
+The site is deployed using GitHub Pages - [Mysterious Things](https://johan-4p.github.io/Mysterious-Things/index.html)
+
+To Deploy the site using GitHub Pages:
+
+1. Login (or signup) to Github.
+2. Go to the repository for this project, [Johan-4P/Mysterious-Things](https://github.com/Johan-4P/Mysterious-Things)
+3. Click the settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+---
+## Testing 
+Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
