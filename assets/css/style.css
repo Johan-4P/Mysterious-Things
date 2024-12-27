@@ -146,6 +146,9 @@ h4 {
   background-size: contain;
   background-position: center;
 }
+.success-page {
+  background-color: #220f0fd4;
+}
 
 .container {
   border: 1px solid var(--primary-color);

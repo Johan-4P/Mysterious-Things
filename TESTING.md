@@ -91,3 +91,50 @@ Additional testing was taken by friends and family on a variety of devices and s
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
+| The Sites Logo | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
+| The page's carousel's arrow-left| The carousel should go left when clicked on | Arrow clicked | Carousel goes left | Pass |
+| The page's carousel's arrow-right | The carousel should go right when clicked on | Arrow clicked | Carousel goes right | Pass |
+| Arrows should be bigger when hoover over | Arrows become bigger | Hoover over whit mouse | Arrows got bigger | Pass |
+| The Sites Footer-Button | Get you back to the top of the page | Button clicked | The page refreshes | Pass |
+| The Sites Footer Links | Open up a new page to the desired page | Link clicked | A new page opens to correct page | Pass |
+
+`Rune Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites Logo | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
+| The page's carousel's arrow-left| The carousel should go left when clicked on | Arrow clicked | Carousel goes left | Pass |
+| The page's carousel's arrow-right | The carousel should go right when clicked on | Arrow clicked | Carousel goes right | Pass |
+| Arrows should be bigger when hoover over | Arrows become bigger | Hoover over whit mouse | Arrows got bigger | Pass |
+| The Sites Footer-Button | Get you back to the top of the page | Button clicked | The page refreshes | Pass |
+| The Sites Footer Links | Open up a new page to the desired page | Link clicked | A new page opens to correct page | Pass |
+
+Òracle Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites Logo | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
+| The page's carousel's arrow-left| The carousel should go left when clicked on | Arrow clicked | Carousel goes left | Pass |
+| The page's carousel's arrow-right | The carousel should go right when clicked on | Arrow clicked | Carousel goes right | Pass |
+| Arrows should be bigger when hoover over | Arrows become bigger | Hoover over whit mouse | Arrows got bigger | Pass |
+| The Sites Footer-Button | Get you back to the top of the page | Button clicked | The page refreshes | Pass |
+| The Sites Footer Links | Open up a new page to the desired page | Link clicked | A new page opens to correct page | Pass |
+
+`Question Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites Logo | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
+| If you forgot to insert letters in the form you can't proceed | A message comes up and tell you to :fill in this field| missed a field | A message comes up and tell you to :fill in this field | Pass |
+| If all fields correct you can submit | You goes to Success Page | fill all fields and pushed submit | you comes to Success Page | Pass |
+| The Sites Footer-Button | Get you back to the top of the page | Button clicked | The page refreshes | Pass |
+| The Sites Footer Links | Open up a new page to the desired page | Link clicked | A new page opens to correct page | Pass |
+
+`Success Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites Logo | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
+| Thank you message comes up with button "Return to the home page" | Push button and you go to the home page | Pushed button | You comes to home page | Pass |
+| The Sites Footer-Button | Get you back to the top of the page | Button clicked | The page refreshes | Pass |
+| The Sites Footer Links | Open up a new page to the desired page | Link clicked | A new page opens to correct page | Pass | 
