@@ -24,7 +24,6 @@ Overview
         * [The Oracle Page](#the-oracle-page)
         * [The Questions Page](#the-question-page)
         * [The Success Page](#the-success-page)
-        * [The Error Page](#the-error-page)
     * [Accessibility](#accessibity)
 * [Technologies Used](#technologies-used)
     * [Languages Used](#languages-used)
@@ -118,3 +117,35 @@ The tarot page displays the logo and a header with a mysterious text, and tree c
 
  #### Rune Page 
  This page is almost the same different images and text's
+![Rune](assets/images/mockup-rune.png)
+And the carousel.
+![Rune2](assets/images/mockup-rune2.png)
+
+#### Oracle Page
+This page is almost the same as home page but different images and text's
+![Oracle](assets/images/mockup-oracle.png)
+And the carousel.
+![Oracle2](assets/images/mockup-oracle2.png)
+
+#### Question Page
+This page have first a text that tells you to ask exactly what you want and how to do it.
+Then it is a form with four boxes that you can fill out your name and email, what category it will direct to and your message.
+![Question Page](assets/images/mockup-question.png)
+
+#### Succsess Page
+This page tells you that your form has been submitted successfully, and a button to de home page
+![Succsess](assets/images/mockup-succsess-page.png)
+
+### Accessibility
+I have really tried to ensure that the website is as accessible as possible. I have achieve this by doing this:
+* Using semantic HTML.
+* Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
+* Used the fonts because i think them are easily to read for people with dyslexia, and that include my self.
+![Button](assets/images/button-image.png)
+
+## Technologies Used
+
+### Languages Used
+HTML,CSS
+
+### Frameworks,Libraries & Program Used
