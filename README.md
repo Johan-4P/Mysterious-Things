@@ -93,7 +93,7 @@ Google Fonts was used to import the chosen fonts for the site.
 ### Wireframe 
 Wireframes were created for mobile, tablet and laptops using balsamiq.
 ![Homepage](assets/images/index.png)
-![Tarot,rune,oracel](assets/images/tarot.rune.oracle.png)
+![Tarot,rune,oracle](assets/images/tarot.rune.oracle.png)
 ![Question](assets/images/question.png)
 ### Features 
 The website build with a home page, a tarot page, a rune page, a oracle page and a question page.
@@ -112,3 +112,9 @@ that will redirect you to that specific page when pushed on. And the footer with
 
 #### Tarot Page
 The tarot page displays the logo and a header with a mysterious text, and tree card's with more information.
+![Tarot](assets/images/mockup-tarot1.png)
+ And after that it comes a carousel with cards taken from the tarot deck the major arcana.
+ ![Tarot2](assets/images/mockup-tarot2.png)
+
+ #### Rune Page 
+ This page is almost the same different images and text's
