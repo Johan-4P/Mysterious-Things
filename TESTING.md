@@ -59,3 +59,35 @@ varying results most because all the images i used
 * [oracle.html](assets/testing/w3/lighthouse/mobile3.png) 
 * [question.html](assets/testing/w3/lighthouse/mobile4.png) 
 * [success.html](assets/testing/w3/lighthouse/mobile5.png)
+
+
+---
+
+### Full Testing
+
+Full Testing was performed on the following devices:
+
+* Laptop:
+    * Asus Tuf Gaming F15 15.6 inch screen
+* Mobile Devices:
+    * Samsung galaxy 22 ultra.
+
+I was using :
+
+* Google Chrome
+
+Additional testing was taken by friends and family on a variety of devices and screen sizes. They reported no issues when using the website.
+
+`Home Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites Logo | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
+| The tree card's buttons | Links to specifics page| Button clicked | the desired page opens | Pass |
+| The Sites Footer-Button | Get you back to the top of the page | Button clicked | The page refreshes | Pass |
+| The Sites Footer Links | Open up a new page to the desired page | Link clicked | A new page opens to correct page | Pass |
+
+`Tarot Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
