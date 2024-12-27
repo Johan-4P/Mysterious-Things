@@ -42,7 +42,7 @@ body {
 .text {
   color: var(--secondary-color);
   font-family: var(--primary-font);
-  background-color: #220f0f4f;
+  background-color: #220f0fd4;
   border-radius: 5%;
   border: 2px solid #09020229;
   margin-top: -50%;
@@ -73,7 +73,7 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   text-align: center;
 }
 
