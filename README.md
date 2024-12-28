@@ -111,7 +111,7 @@ All pages on the website are responsive and have:
  ![logo-big](assets/images/logo23.png)
 
 #### The Home Page
-The home page of Mysterious Things the sites name as a logo and then a container which holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the logo
+The home page of Mysterious Things the sites name as a logo and then a container which holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the logo.
 
 ![Home-page](assets/images/mockup.png)
 
@@ -132,7 +132,7 @@ The tarot page displays the logo and a header with a mysterious text, and tree c
 
  #### Rune Page 
 
- This page is almost the same different images and text's
+ This page is almost the same different images and text's.
 
 ![Rune](assets/images/mockup-rune.png)
 
@@ -142,7 +142,7 @@ And the carousel.
 
 #### Oracle Page
 
-This page is almost the same as home page but different images and text's
+This page is almost the same as home page but different images and text's.
 
 ![Oracle](assets/images/mockup-oracle.png)
 
@@ -159,7 +159,7 @@ Then it is a form with four boxes that you can fill out your name and email, wha
 
 #### Success Page
 
-This page tells you that your form has been submitted successfully, and a button to de home page
+This page tells you that your form has been submitted successfully, and a button to de home page.
 
 ![Success](assets/images/mockup-succsess-page.png)
 
@@ -193,9 +193,9 @@ HTML,CSS
 * [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 * [Favicon.io](https://favicon.io/) To create favicon.
 
-* [W3C HTML Validator](https://validator.w3.org/) - To check HTML code
+* [W3C HTML Validator](https://validator.w3.org/) - To check HTML code.
 
-* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - To check CSS code
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - To check CSS code.
 
 * [Am I Responsive?](http://ami.responsivedesign.is/) - To show the website image on a range of devices.
 
@@ -251,7 +251,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 ### Code Used
 
 * I Used much code from [Bootstrap](https://getbootstrap.com/)
-* I have turned a lot to [ChatGPT](https://chatgpt.com/) - And got good answers 
+* I have turned a lot to [ChatGPT](https://chatgpt.com/) - And got good answers.
 
 ### Content 
 
