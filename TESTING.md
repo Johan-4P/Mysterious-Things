@@ -83,7 +83,7 @@ Additional testing was taken by friends and family on a variety of devices and s
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | The Sites Logo | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
-| The tree card's buttons | Links to specifics page| Button clicked | the desired page opens | Pass |
+| The tree card's buttons | Links to specifics page| Button clicked | The desired page opens | Pass |
 | The Sites Footer-Button | Get you back to the top of the page | Button clicked | The page refreshes | Pass |
 | The Sites Footer Links | Open up a new page to the desired page | Link clicked | A new page opens to correct page | Pass |
 
