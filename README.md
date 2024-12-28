@@ -2,7 +2,7 @@
 
 Mysterious Things is a website designed to offer deep insights into the spiritual and mystical realms.
 It serves as a guide for anyone interested in exploring Tarot cards, Runes, and Oracle readings.
-The platform also features a dedicated question page to address users' curiosities about these esoteric practices.
+The platform also features a dedicated question page to address users curiosities about these esoteric practices.
 
 ![a mockup of the homepage](assets/images/mockup.png "Homepage!")
 
@@ -46,7 +46,7 @@ Visit the deployed site: [Mysterious Things](https://johan-4p.github.io/Mysterio
 ## User Experience (UX)
 
 ### Target Audience
-* Those who are looking for a page that can give them the information they want
+* Those who are looking for a page that can give them the information they want.
 
 #### User Stories
 
@@ -67,7 +67,7 @@ Visit the deployed site: [Mysterious Things](https://johan-4p.github.io/Mysterio
 I have chose the color based on the mystical theme that the page is build on.
 
 In my css file i have mostly used variables to declare color, and used these throughout the css file.
-its useful to ise the same color code if you wish to alter the color on the webpage.
+Its useful to use the same color code if you wish to alter the color on the webpage.
 * I have used #d13333 & #ecbdbd as the primary and secondary color used for the sites text.
 * I have used gradient-bg: linear-gradient
     90deg,
