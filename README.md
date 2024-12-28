@@ -257,6 +257,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 The information on the home page is written by me.
 And the rest:
+
 Oracle part
 https://passaroundthesmile.com/blogs/blog/everything-you-need-to-know-about-oracle-cards
 
