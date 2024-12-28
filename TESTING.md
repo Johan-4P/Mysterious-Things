@@ -125,7 +125,7 @@ Additional testing was taken by friends and family on a variety of devices and s
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | The Sites Logo | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
-| If you forgot to insert letters in the form you can't proceed | A message comes up and tell you to :fill in this field| missed a field | A message comes up and tell you to :fill in this field | Pass |
+| If you forgot to insert letters in the form you can't proceed | A message comes up and tell you to: fill in this field| missed a field | A message comes up and tell you to: fill in this field | Pass |
 | If all fields correct you can submit | You goes to Success Page | fill all fields and pushed submit | you comes to Success Page | Pass |
 | The Sites Footer-Button | Get you back to the top of the page | Button clicked | The page refreshes | Pass |
 | The Sites Footer Links | Open up a new page to the desired page | Link clicked | A new page opens to correct page | Pass |
