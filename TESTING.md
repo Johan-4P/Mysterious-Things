@@ -1,5 +1,5 @@
 # Mysterious Things - Testing
-[mockup of Mysterious Things](assets/images/mockup.png)
+![mockup of Mysterious Things](assets/images/mockup.png)
 
 Visit the deployed site [Mysterious Things](https://johan-4p.github.io/Mysterious-Things/index.html)
 ## CONTENTS
@@ -109,7 +109,7 @@ Additional testing was taken by friends and family on a variety of devices and s
 | The Sites Footer-Button | Get you back to the top of the page | Button clicked | The page refreshes | Pass |
 | The Sites Footer Links | Open up a new page to the desired page | Link clicked | A new page opens to correct page | Pass |
 
-Òracle Page`
+`Oracle Page`
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
