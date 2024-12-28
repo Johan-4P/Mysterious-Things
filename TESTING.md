@@ -24,8 +24,8 @@ I have gone through each page using google chrome developer tools to ensure that
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
 * [index.html](assets/testing/w3/W3Cindex.png) - Passed
-* [tarot.html](assets/testing/w3/W3Ctarot.png) - passed
-* [rune.html](assets/testing/w3/W3Crune.png) - passed
+* [tarot.html](assets/testing/w3/W3Ctarot.png) - Passed
+* [rune.html](assets/testing/w3/W3Crune.png) - Passed
 * [oracle.html](assets/testing/w3/W3Coracle.png) - Passed
 * [question.html](assets/testing/w3/W3Cquestion.png) - Passed
 * [success.html](assets/testing/w3/W3Csuccess.png) - Passed
@@ -36,11 +36,11 @@ I have gone through each page using google chrome developer tools to ensure that
 
 ### Lighthouse
 
-I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website
+I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
 ### Desktop Results
 
-varying results most because all the images i used
+varying results most because all the images i used.
 
 ### Desktop Results
 
@@ -68,13 +68,13 @@ varying results most because all the images i used
 Full Testing was performed on the following devices:
 
 * Laptop:
-    * Asus Tuf Gaming F15 15.6 inch screen
+    * Asus Tuf Gaming F15 15.6 inch screen.
 * Mobile Devices:
     * Samsung galaxy 22 ultra.
 
-I was using :
+I was using:
 
-* Google Chrome
+* Google Chrome.
 
 Additional testing was taken by friends and family on a variety of devices and screen sizes. They reported no issues when using the website.
 
