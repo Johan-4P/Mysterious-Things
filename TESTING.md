@@ -94,7 +94,7 @@ Additional testing was taken by friends and family on a variety of devices and s
 | The Sites Logo | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
 | The page's carousel's arrow-left| The carousel should go left when clicked on | Arrow clicked | Carousel goes left | Pass |
 | The page's carousel's arrow-right | The carousel should go right when clicked on | Arrow clicked | Carousel goes right | Pass |
-| Arrows should be bigger when hoover over | Arrows become bigger | Hoover over whit mouse | Arrows got bigger | Pass |
+| Arrows should be bigger when hoover over | Arrows become bigger | Hoover over with mouse | Arrows got bigger | Pass |
 | The Sites Footer-Button | Get you back to the top of the page | Button clicked | The page refreshes | Pass |
 | The Sites Footer Links | Open up a new page to the desired page | Link clicked | A new page opens to correct page | Pass |
 
@@ -105,7 +105,7 @@ Additional testing was taken by friends and family on a variety of devices and s
 | The Sites Logo | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
 | The page's carousel's arrow-left| The carousel should go left when clicked on | Arrow clicked | Carousel goes left | Pass |
 | The page's carousel's arrow-right | The carousel should go right when clicked on | Arrow clicked | Carousel goes right | Pass |
-| Arrows should be bigger when hoover over | Arrows become bigger | Hoover over whit mouse | Arrows got bigger | Pass |
+| Arrows should be bigger when hoover over | Arrows become bigger | Hoover over with mouse | Arrows got bigger | Pass |
 | The Sites Footer-Button | Get you back to the top of the page | Button clicked | The page refreshes | Pass |
 | The Sites Footer Links | Open up a new page to the desired page | Link clicked | A new page opens to correct page | Pass |
 
@@ -116,7 +116,7 @@ Additional testing was taken by friends and family on a variety of devices and s
 | The Sites Logo | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
 | The page's carousel's arrow-left| The carousel should go left when clicked on | Arrow clicked | Carousel goes left | Pass |
 | The page's carousel's arrow-right | The carousel should go right when clicked on | Arrow clicked | Carousel goes right | Pass |
-| Arrows should be bigger when hoover over | Arrows become bigger | Hoover over whit mouse | Arrows got bigger | Pass |
+| Arrows should be bigger when hoover over | Arrows become bigger | Hoover over with mouse | Arrows got bigger | Pass |
 | The Sites Footer-Button | Get you back to the top of the page | Button clicked | The page refreshes | Pass |
 | The Sites Footer Links | Open up a new page to the desired page | Link clicked | A new page opens to correct page | Pass |
 
