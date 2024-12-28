@@ -146,9 +146,6 @@ h4 {
   background-size: contain;
   background-position: center;
 }
-#success {
-  background-color: #220f0fd4;
-}
 
 .container {
   border: 1px solid var(--primary-color);
@@ -163,7 +160,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #220f0f4f;
+  background-color: #220f0fd4;
 }
 .container-reading {
   border: 1px solid var(--primary-color);
